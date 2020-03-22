@@ -4,7 +4,7 @@ import re
 
 search = google_custom_search.GoogleCustomSearch()
 
-class BarcodeResult():
+class UPCSearchResult():
     def __init__(self, sourceJson=None):
         """
             {
@@ -54,8 +54,7 @@ def parse_description(raw_product_description=None):
 def find(barcode=None):
     results = search.get_results(query=barcode)
     for result in results:
-        # print (json.dumps(result))
-        br = BarcodeResult(sourceJson=result)
+        br = UPCSearchResult(sourceJson=result)
         print(br)
 
 

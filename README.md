@@ -1,5 +1,5 @@
 # barcode-search
-Messing around with barcode search.
+Messing around with barcodes and text detection.
 
 # requirements
 - python3.7

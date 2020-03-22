@@ -57,5 +57,3 @@ def find(barcode=None):
         br = UPCSearchResult(sourceJson=result)
         print(br)
 
-
-find("813267020076")

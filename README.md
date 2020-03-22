@@ -6,5 +6,5 @@ Messing around with barcode search.
 
 # usage
 ```bash
-python3 barcode-search.py
+python3 barcode_search.py
 ```

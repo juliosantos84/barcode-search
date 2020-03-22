@@ -20,7 +20,7 @@ def decode_barcode(barcodeImageBytes=None):
                 'Bytes': barcodeImageBytes
             }
         )
-        # print(json.dumps(response))
+        print(json.dumps(response))
         if 'TextDetections' in response:
             for detection in response['TextDetections']:
                 textType = detection['Type']
